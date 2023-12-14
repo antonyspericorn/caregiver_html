@@ -1,0 +1,32 @@
+@import 'partials';
+
+.section-caregiver{
+    padding-top: 70px;
+    background-color: #f1f9ffb3;
+
+    .txt-col-wrp{
+        max-width: 560px;
+
+        .sec-title{
+            font-size: 42px;
+            line-height: 1.45;
+            font-weight: 600;
+            color: #002944;
+            margin-bottom: 0.5em;
+            @media ($sm-1679){
+                font-size: 40px;
+            }
+            @media ($sm-1281){
+                font-size: 38px;
+            }
+             
+        }
+
+        .txtCont{
+            color: #002944;
+            font-size: 18px;
+            line-height: 1.833;
+            
+        }
+    }
+}

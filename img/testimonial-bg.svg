@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="691" viewBox="0 0 1920 691">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_110" data-name="Rectangle 110" width="497" height="621" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#09f" stop-opacity="0.6"/>
+      <stop offset="1" stop-color="#09f" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="clip-path-2">
+      <rect id="Rectangle_149" data-name="Rectangle 149" width="310" height="567" transform="translate(367)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-2" y1="1" y2="0" xlink:href="#linear-gradient"/>
+  </defs>
+  <g id="Group_56949" data-name="Group 56949" transform="translate(0 -7870)">
+    <rect id="Rectangle_85" data-name="Rectangle 85" width="1920" height="691" transform="translate(0 7870)" fill="#002944"/>
+    <g id="Group_56948" data-name="Group 56948">
+      <g id="Mask_Group_46" data-name="Mask Group 46" transform="translate(1423 7870)" opacity="0.57" clip-path="url(#clip-path)">
+        <path id="Path_9438" data-name="Path 9438" d="M1763.575,879.062v-51c-8.32-.048-206.064-3.737-258.056-225.387-60.241-256.815-257.714-314.429-266.09-316.756l-13.65,49.139,6.825-24.57-6.909,24.546c7.206,2.055,177.078,52.939,230.172,279.286C1517.257,876.035,1761.119,879.062,1763.575,879.062Z" transform="translate(-1076.636 -342.491)" opacity="0.53" fill="url(#linear-gradient)"/>
+      </g>
+      <g id="Mask_Group_71" data-name="Mask Group 71" transform="translate(-367 7990)" opacity="0.57" clip-path="url(#clip-path-2)">
+        <path id="Path_9438-2" data-name="Path 9438" d="M1763.575,285.92v51c-8.32.048-206.064,3.737-258.056,225.387-60.241,256.815-257.714,314.429-266.09,316.756l-13.65-49.139,6.825,24.57-6.909-24.546c7.206-2.055,177.078-52.939,230.172-279.286C1517.257,288.947,1761.119,285.92,1763.575,285.92Z" transform="translate(-1076.636 -201.491)" opacity="0.53" fill="url(#linear-gradient-2)"/>
+      </g>
+    </g>
+  </g>
+</svg>

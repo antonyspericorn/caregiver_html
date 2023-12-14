@@ -1,0 +1,20 @@
+@import 'partials';
+
+
+body{
+    font-family: 'Kanit', sans-serif;
+    font-weight: 300;
+}
+.sec-subtitle{
+    color: #0099FF;
+}
+// container custom 
+.container-custom{
+    max-width: 1300px;
+    @media  ($sm-1281){
+        max-width: 1200px;
+    }
+    @media  ($sm-991){
+        max-width: 900px;
+    }
+}

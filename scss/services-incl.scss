@@ -1,0 +1,101 @@
+@import 'partials';
+
+
+.section-service-incl{
+    padding-top: 110px;
+    padding-bottom: 110px;
+    @media ($sm-1679){
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    @media ($sm-1481){
+        padding-top: 70px;
+        padding-bottom: 70px;
+      
+    }
+    @media ($sm-1281){
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    @media ($sm-1199){
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .sec-title{
+        font-size: 42px;
+        color: #002944;
+        margin-bottom: 1.29em;
+        @media ($sm-1679){
+            font-size: 40px;
+        }
+        @media ($sm-1281){
+            font-size: 38px;
+        }
+    }
+}
+.serv-item{
+    padding-left: 25px;
+    padding-right: 25px;
+    max-width:320px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    @media ($sm-1679){
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-bottom: 30px;
+    }
+    @media ($sm-1481){
+        padding-left: 16px;
+        padding-right: 16px;
+      
+    }
+    @media ($sm-1281){
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+    @media ($sm-1199){
+        padding-left: 10px;
+        padding-right: 10px; 
+    }
+    .serv-img{
+        aspect-ratio: 1;
+        border-radius: 100%;
+        overflow: clip;
+        margin-bottom: 30px;
+        border: 18px solid;
+        max-width: 268px;
+        border-color: #dfedf6 !important;
+        @media ($sm-1679){
+            border: 16px solid;
+            margin-bottom: 20px;
+        }
+        @media ($sm-1481){
+            border: 14px solid;
+            margin-bottom: 15px;
+        }
+        @media ($sm-1281){
+            border: 12px solid;
+            margin-bottom: 12px;
+        }
+        @media ($sm-1199){
+            border: 10px solid;
+        }
+        img{
+            width: 100%;
+            height: 100%;
+            
+        }
+    }
+    .serv-txt{
+        text-align: center;
+        font-size: 24px;
+        color: #002944;
+        @media ($sm-1679){
+            font-size: 20px;
+        }
+        @media ($sm-1281){
+            font-size: 18px;
+        }
+    }
+}

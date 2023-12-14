@@ -1,0 +1,176 @@
+@import 'partials';
+
+.section-testimonials{
+    background: #002944 url(../img/testimonial-bg.svg) no-repeat top/100%;
+    color: #ffffff;
+    padding-top: 85px;
+    padding-bottom: 85px;
+    @media ($sm-1679){
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    @media ($sm-1441){
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+     
+    @media ($sm-1199){
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .sec-subtitle{
+        font-size: 24px;
+        line-height: 1.75;
+        font-weight: 600;
+        @media ($sm-1679){
+            font-size: 20px;
+        }
+        @media ($sm-1281){
+            font-size: 18px;
+        }
+        
+    }
+    .sec-title{
+        font-size: 42px;
+        line-height: 1;
+        margin-bottom: 2em;
+        @media ($sm-1679){
+            font-size: 40px;
+        }
+        @media ($sm-1281){
+            font-size: 38px;
+        }
+    }
+    .slider-wrp{
+        position: relative;
+        padding-left: 15px;
+        padding-right: 15px;
+        .testim-slider{
+            padding-left: 55px;
+            padding-right: 55px;
+
+            @media ($sm-1679){
+                padding-left: 40px;
+                padding-right: 40px;
+            }
+            .slick-list{
+                border-radius: 20px;
+            }
+            .slide{
+                padding-left: 15px;
+                padding-right: 15px;
+            }
+            .slide-conts {
+                padding: 27px;
+                border: 1px solid #0099FF;
+                border-radius: 20px;
+                background-color: #083F63;
+            }
+
+            .slick-arrow{
+                width: 50px;
+                height: 50px;
+                background-color: #093F63;
+                border-radius: 50px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                @media ($sm-1481){
+                    width: 40px;
+                    height: 40px;
+                }
+                @media ($sm-1199){
+                    width: 30px;
+                    height: 30px;
+                }
+                &:hover{
+                    background-color: #0099FF;
+                    transition: all ease-in-out 0.1s;
+                    &:before{
+                        filter: brightness(0) invert(1);
+                    } 
+                }
+                &:before{
+                    opacity: 1;
+                    content: '';
+                    width: 100%;
+                    height: 100%;
+                    
+                }
+                &.slick-next{
+                    right: 0;
+                    &:before{
+                        background: url(../img/chevron-right.svg) no-repeat center/50%;
+                    }
+                }
+                &.slick-prev{
+                    left: 0;
+                    &:before{
+                        background: url(../img/chevron-left.svg) no-repeat center/50%;
+                    }
+                }
+            }
+        }
+        .testim-heading{
+            display: flex;
+            align-items: center;
+            padding-bottom: 1.2em;
+            font-size: 24px;
+            @media ($sm-1679){
+                font-size: 20px;
+              }
+              @media ($sm-1281){
+                  font-size: 18px;
+              }
+
+
+            .usr-txt{
+                
+               .userPos{
+                font-size: 18px;
+                color: #0099FF;
+                
+                
+                 
+               }
+            }
+
+            .usr-img{
+                width: 85px;
+                aspect-ratio: 1;
+                margin-left: auto;
+                border-radius: 100%;
+                border: 8px solid #095B91;
+                flex-shrink: 0;
+                @media ($sm-1679){
+                    width: 60px;
+                    border: 6px solid #095B91;
+                }
+                @media ($sm-1441){
+                    width: 50px;
+                    border: 4px solid #095B91;
+                }
+                
+                
+                img{
+                    border-radius: 100%;
+                    object-fit: cover;
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+
+        .testim-content{
+                font-size: 18px;
+                
+                @media ($sm-1679){
+                    font-size: 16px;
+                }
+                @media ($sm-1441){
+                    font-size: 14px;
+                }
+
+        }
+    }
+}
