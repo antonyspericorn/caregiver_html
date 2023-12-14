@@ -1,0 +1,131 @@
+@import 'partials';
+@mixin placeholder {
+    ::-webkit-input-placeholder {
+      @content
+    }
+  
+    :-moz-placeholder {
+      @content
+    }
+  
+    ::-moz-placeholder {
+      @content
+    }
+  
+    :-ms-input-placeholder {
+      @content
+    }
+  
+}
+.home-banner{
+    background-color: #EEF8FC;
+    min-height: 100vh;
+    background: {
+        image: url('../img/banner-bg.png');
+        size: cover;
+    };
+    .container-custom{
+        min-height: inherit;
+    }
+    .banner-wrapper{
+        display: flex;
+        width: 100%;
+        min-height: inherit;
+        padding: 250px 0 100px;
+        align-items: center;        
+        .text-block{
+            flex: 1 1 auto;
+            padding-right: 120px;
+            h2{
+                font-size: 59px;
+                font-weight: 600;
+                color: #fff;
+            }
+            p{
+                font-size: 24px;
+                color: #fff;
+            }
+            .btn-block{
+                padding-top: 25px;
+                .start-btn{
+                    display: inline-flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    border: 1px solid #0099FF;
+                    border-radius: 42px;
+                    padding: 19px 44px;
+                    width: 426px;
+                    max-width: 100%;
+                    background-color: #0099FF26;
+                    color: #fff;
+                    margin-left: 10px;
+                    text-decoration: none;
+                }
+            }
+        }
+        .form-block{
+            flex: 0 0 auto;
+            .form-card{
+                width: 515px;
+                display: block;
+                background-color: #fff;
+                border-radius: 37px;
+                max-width: 100%;
+                padding: 40px 55px;
+                h2{
+                    font-size: 24px;
+                    color: #002944;
+                    margin-bottom: 25px;
+                    font-weight: normal;
+                    span{
+                        font-weight: 600;
+                        color: #0099FF;
+                    }
+                }
+                .form-inp-cover{
+                    .inp-block{
+                        width: 100%;
+                        position: relative;
+                        margin-bottom: 27px;
+                        @include placeholder{
+                            color: #000;
+                        }
+                        .form-control{
+                            color: #000;
+                            border: 1px solid #D6E0E7;
+                            padding: 15px 30px;
+                            height: 66px;
+                            border-radius: 185px;
+                            font-size: 18px;
+                            box-shadow: none;
+                        }
+                        .req{
+                            position: relative;
+                            display: block;
+                            top: calc(100% + 2px);
+                            font-size: 12px;
+                            color: red;
+                            left: 0;
+                        }
+                    }
+                    .form-select{
+                        background-position: right 22px center;
+                        background-image: url('../img/downarrow.svg');
+                    }
+                }
+                .btn-block{
+                    .submit-btn{
+                        width: 100%;
+                        background-color: #0099FF;
+                        color: #fff;
+                        padding: 15px 30px;
+                        height: 66px;
+                        border-radius: 185px;
+                        font-size: 24px;
+                        box-shadow: none;
+                    }
+                }
+            }
+        }
+    }    
+}

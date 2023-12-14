@@ -1,0 +1,79 @@
+@import 'partials';
+
+.eligible-sec{
+    background-color: #003D83;
+    padding: 60px 0 80px;
+    background-image: url('../img/elgbl-bg.png');
+    background-size: cover;
+    background-position: right bottom;
+    .det-block{
+        padding-top: 40px;
+        h2{
+            font-size: 42px;
+            font-weight: 600;
+            margin-bottom: 40px;
+            color: #fff;
+            span{
+                color: #0099FF;
+            }
+        }
+        .qst-cover{
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            .qst-block{
+                width: 100%;
+                background: #02418A;
+                border: 1px solid #0099FF66;
+                border-radius: 36px;
+                padding: 14px 40px;
+                padding-right: 20px;
+                font-size: 28px;
+                font-weight: 300;
+                color: #fff;
+                margin-bottom: 25px;
+                &.qst-block-m{
+                    width: calc(50% - 8px);
+                }
+            }
+        }
+        .contact-block{
+            display: flex;
+            align-items: center;
+            padding-top: 20px;
+            .txt-label{
+                font-size: 28px;
+                font-weight: 300;
+                color: #fff;
+                padding: 10px 0;
+                padding-right: 50px;
+            }
+            .contact-link{
+                text-decoration: none;
+                display: inline-flex;
+                align-items: center;
+                background: #0099FF;
+                border-radius: 34px;
+                padding: 9px;
+                padding-right: 53px;
+                color: #fff;
+                font-size: 24px;
+                font-weight: 600;
+                .icon {
+                    display: inline-flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 50px;
+                    height: 50px;
+                    border-radius: 50%;
+                    background-color: #fff;
+                    margin-right: 17px;
+                }
+            }
+        }
+    }
+    .img-block{
+        padding-left: 30px;
+        text-align: right;
+    }
+}

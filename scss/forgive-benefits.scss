@@ -1,0 +1,73 @@
+@import 'partials';
+
+.forgive-benefits-sec{
+    padding: 160px 0 10px;
+    background: {
+        image: url('../img/benefits-bg.png');
+        size: cover;
+        position: left bottom;
+        color: #F5FBFF;
+    };
+    .benefits-img-col{
+        min-width: 55%;
+        flex: 0 0 auto;
+    }
+    .benefits-text-col{
+        flex: 1 1 auto;
+        padding-left: 40px;
+    }
+    .benefits-text-col{
+        h2{
+            color: #002944;
+            font-size: 42px;
+            font-weight: 600;
+            margin-bottom: 40px;
+        }
+        .lst-main{
+            list-style: none;
+            padding: 0;
+            li{
+                position: relative;
+                padding-left: 40px;
+                font-size: 28px;
+                font-weight: 500;
+                color: #002944;
+                margin-bottom: 28px;
+                &::before{
+                    content: '';
+                    position: absolute;
+                    left: 0;
+                    top: 12px;
+                    width: 13px;
+                    height: 18px;
+                    border-left: solid 13px #0099FF;
+                    border-top: solid 9px transparent;
+                    border-bottom: solid 9px transparent;
+                    display: inline-block;
+                }
+            }
+        }
+        .sub-ul-block{
+            display: flex;
+            padding-top: 15px;
+            padding-left: 30px;
+            .sub-ul-crd{
+                width: 50%;
+                ul{
+                    li{
+                        color: #002944;
+                        font-size: 21px;
+                        font-weight: 300;
+                        margin-bottom: 20px;
+                        &::marker{
+                            color: #002944;
+                        }
+                    }
+                }
+            }
+            .sub-ul-block-2{
+                padding-left: 40px;
+            }
+        }
+    }
+}

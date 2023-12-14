@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;700;800;900&family=Rubik:wght@300;400;500;600;700;800;900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
 /*** all Mobile Screen (iphone 6,7,8) ***/
 /*** mobile Landscape Size ***/
 /*** medium devices (tablets, less than 992px) ***/
@@ -26,6 +24,9 @@ header {
   left: 0;
   width: 100%;
   background: transparent; }
+  @media (max-width: 1679px) {
+    header {
+      zoom: 85%; } }
   header.nav-sticky {
     background: #002944; }
     header.nav-sticky .navbar {
