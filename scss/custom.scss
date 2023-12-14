@@ -4,9 +4,6 @@
 body{
     font-family: 'Kanit', sans-serif;
     font-weight: 300;
-    @media ($sm-1679){
-        zoom: 0.8;
-    }
 }
 .sec-subtitle{
     color: #0099FF;
@@ -19,5 +16,11 @@ body{
     }
     @media  ($sm-991){
         max-width: 900px;
+    }
+}
+
+.pg-wrp{
+    @media ($sm-1679){
+        zoom: 85%;   
     }
 }
