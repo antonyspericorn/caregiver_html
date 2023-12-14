@@ -255,6 +255,15 @@ header{
 }
 }
 
-header{
-    
+@media (max-width: 1679px) {
+    .navbar .navbar-nav .nav-link-btn{
+        font-size: 20px;
+    }
+    .navbar .navbar-nav .nav-link-btn .icon{
+        width: 44px;
+        height: 44px;
+    }
+    header .nav-top .info-txt{
+        font-size: 18px;
+    }
 }

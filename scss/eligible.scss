@@ -77,3 +77,15 @@
         text-align: right;
     }
 }
+@media (max-width: 1679px) {
+    .eligible-sec .det-block .qst-cover .qst-block, .eligible-sec .det-block .contact-block .txt-label{
+        font-size: 25px;
+    }
+    .eligible-sec .det-block .contact-block .contact-link{
+        font-size: 20px;
+    }
+    .eligible-sec .det-block .contact-block .contact-link .icon{
+        width: 44px;
+        height: 44px;
+    }
+}

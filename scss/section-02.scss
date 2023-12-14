@@ -1,0 +1,140 @@
+
+
+
+.content-section{
+    padding: 50px 0;
+    .contwnt-hd{
+        .title{
+            color: #002944;
+            font: normal normal 500 42px/47px Kanit;
+        }
+ 
+    }
+}
+
+.box-card{
+    min-height: 430px;
+    background: #FFFFFF ;
+    box-shadow: 0px 3px 41px #0099FF0D;
+    border: 1px solid #CBE1EF;
+    border-radius: 37px;
+    padding: 70px;
+    img{
+        max-width: 100%;
+    }
+            }
+
+
+            .section-box-cover{
+                margin-top: 60px;
+  .card-box-lg{
+
+      background: #F7FCFF 0% 0% no-repeat padding-box;
+border: 1px solid #92D3FF;
+min-height: 500px;
+border-radius: 32px;
+text-align: left;
+padding: 35px 32px;
+.icon{
+    background-color: #DAEFFD;
+    width:100px;
+height:100px;
+border-radius: 50%;
+display:grid;
+place-items: center;
+margin-bottom: 25px;
+}
+.content-main{
+    strong{
+        color: #0099FF;
+    }
+    .title-lg{
+        color: #002944;
+        font: normal normal 500 24px/27px Kanit;
+        margin: 25px 0;
+
+    }
+    p{
+        color: #002944;
+        font: normal normal 300 18px/32px Kanit;
+    }
+}
+  }
+            }
+
+            .light-bg{
+                background: #F1F9FF 
+            }
+
+
+            .text-center-content{
+                  text-align: center;
+            }
+            
+
+.cstm-bg{
+    background-color: #fff !important;
+}
+
+.cdpa.mrgn-top.fill-bg{
+ margin-top: 55px;
+ margin-bottom: 55px;
+}
+
+.bg-fill-one{
+    background: url(../img/bg-fill.png) no-repeat center center;
+    background-size: cover;
+    padding: 85px 0;
+    .h2{
+        text-align: center;
+        font: 600 45px/47px Kanit;
+
+        color: #fff;
+        span{
+          color: #0099FF;
+        }
+    }
+}
+
+
+.info-bg{
+    background: #F0F9FF 0% 0% no-repeat padding-box;
+border: 1px solid #81CCFF;
+border-radius: 50px;
+padding: 10px 15px;
+margin-top: 35px;
+font: normal normal 500 24px/27px Kanit;
+display: flex;
+align-items: center;
+
+.lft{
+    color:#002944;
+    padding-left: 15px;
+    span{
+        color:#0099FF;
+    }
+ }
+ .rgt-call{
+    display: inline-flex;
+    align-items: center;
+    background-color: #0099FF;
+    border-radius: 36px;
+    padding: 12px;
+    margin-left: auto;
+font: normal normal 500 22px/27px Kanit;
+
+    .icon{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #fff;
+        margin-right: 12px;
+    } 
+    span{
+        color: #fff;
+    } 
+ }
+}

@@ -1,0 +1,104 @@
+
+
+.cdpa{
+   
+    // min-height: 600px;
+    position: relative;
+    &::before{
+        content:"";
+          background-color: #002944;
+          position: absolute;
+          height: 95%;
+          width: 100%;
+    }
+    .cdpap-left{
+        padding: 35px 0;
+        position: relative;
+        z-index: 9;
+        .title{
+            color: #fff;
+            font:  600 42px/54px Kanit;
+            margin-bottom: 35px;
+        }
+        .feature-listing{
+            color: #fff;
+            padding-left: 0;
+            
+            li{
+                text-transform: capitalize;
+                font: 500 28px/33px Kanit;
+                list-style: none;
+                position: relative;
+                display: inline-flex;
+                padding-left: 30px;
+                margin-bottom: 25px;
+                .arrow-right {
+                    width: 0; 
+                    height: 0; 
+                    border-top: 10px solid transparent;
+                    border-bottom: 10px solid transparent;
+                    
+                    border-left: 15px solid #0099FF;
+                    position: absolute;
+                    left: 0;
+                    top:5px;
+                    
+                  }
+                
+                  
+            }
+        }
+        p{
+            font: normal normal 300 28px/33px Kanit;
+    color: #fff;
+    span{
+        color:#0099FF !important;
+        font-weight: 500;
+    }
+          }
+    }
+}
+
+
+.cdpa-img{
+    position: relative;
+    z-index: 9;
+    img{
+        max-width: 100%;
+    }
+}
+
+
+.mrgn-top{
+   background-color: #F1F9FF;
+   display: flex;
+   .arrow-right{
+       border-top: 5px solid transparent !important;
+       border-bottom: 7px solid transparent !important;
+       border-left: 9px solid #09F !important;
+   }
+    li{
+        width:100%;
+        font-weight: 300 !important;
+        font-size: 16px !important;
+        margin-bottom: 5px !important;
+        .arrow-right{
+            margin-top: 10px;
+        }
+    }
+}
+
+
+.fill-bg{
+    background-color: #fff !important;
+    &:before{
+        content:"";
+        display: none;
+    }
+    .cdpap-left .title{
+        color: #002944 !important;
+    }
+    .feature-listing li{
+        color: #002944;
+    }
+}

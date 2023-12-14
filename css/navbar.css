@@ -209,5 +209,15 @@ header {
   .navbar .navbar-toggler {
     padding-top: 10px;
     padding-bottom: 10px; } }
+@media (max-width: 1679px) {
+  .navbar .navbar-nav .nav-link-btn {
+    font-size: 20px; }
+
+  .navbar .navbar-nav .nav-link-btn .icon {
+    width: 44px;
+    height: 44px; }
+
+  header .nav-top .info-txt {
+    font-size: 18px; } }
 
 /*# sourceMappingURL=navbar.css.map */

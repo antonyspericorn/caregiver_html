@@ -129,3 +129,12 @@
         }
     }    
 }
+
+@media (max-width: 1679px) {
+    .home-banner .banner-wrapper {
+        padding: 210px 0 85px;
+    }
+    .home-banner .banner-wrapper .form-block .form-card .btn-block .submit-btn{
+        font-size: 22px;
+    }
+}
