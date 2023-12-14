@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;700;800;900&family=Rubik:wght@300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+/*** all Mobile Screen (iphone 6,7,8) ***/
+/*** mobile Landscape Size ***/
+/*** medium devices (tablets, less than 992px) ***/
+/*** iPad in landscape ***/
+/**** smaller than desktop 1200 (devices and browsers) ***/
+/*** laptop with MDPI (medium density per inch) resolution ***/
+/*** laptop with HiDPI (High Dots Per Inch) resolution ***/
+/*** WSXGA (Wide Super Extended Graphics Array) resolution ***/
+/*** all Mobile Screen (iphone 6,7,8) ***/
+/*** mobile Landscape Size ***/
+/*** medium devices (tablets, less than 992px) ***/
+/*** iPad in landscape ***/
+/**** smaller than desktop 1200 (devices and browsers) ***/
+/*** laptop with MDPI (medium density per inch) resolution ***/
+/*** laptop with HiDPI (High Dots Per Inch) resolution ***/
+/*** WSXGA (Wide Super Extended Graphics Array) resolution ***/
+.home-banner {
+  background-color: #EEF8FC;
+  min-height: 100vh;
+  background-image: url("../img/banner-bg.png");
+  background-size: cover; }
+  .home-banner .container-custom {
+    min-height: inherit; }
+  .home-banner .banner-wrapper {
+    display: flex;
+    width: 100%;
+    min-height: inherit;
+    padding: 250px 0 100px;
+    align-items: center; }
+    .home-banner .banner-wrapper .text-block {
+      flex: 1 1 auto;
+      padding-right: 120px; }
+      .home-banner .banner-wrapper .text-block h2 {
+        font-size: 59px;
+        font-weight: 600;
+        color: #fff; }
+      .home-banner .banner-wrapper .text-block p {
+        font-size: 24px;
+        color: #fff; }
+      .home-banner .banner-wrapper .text-block .btn-block {
+        padding-top: 25px; }
+        .home-banner .banner-wrapper .text-block .btn-block .start-btn {
+          display: inline-flex;
+          align-items: center;
+          justify-content: space-between;
+          border: 1px solid #0099FF;
+          border-radius: 42px;
+          padding: 19px 44px;
+          width: 426px;
+          max-width: 100%;
+          background-color: #0099FF26;
+          color: #fff;
+          margin-left: 10px;
+          text-decoration: none; }
+    .home-banner .banner-wrapper .form-block {
+      flex: 0 0 auto; }
+      .home-banner .banner-wrapper .form-block .form-card {
+        width: 515px;
+        display: block;
+        background-color: #fff;
+        border-radius: 37px;
+        max-width: 100%;
+        padding: 40px 55px; }
+        .home-banner .banner-wrapper .form-block .form-card h2 {
+          font-size: 24px;
+          color: #002944;
+          margin-bottom: 25px;
+          font-weight: normal; }
+          .home-banner .banner-wrapper .form-block .form-card h2 span {
+            font-weight: 600;
+            color: #0099FF; }
+        .home-banner .banner-wrapper .form-block .form-card .form-inp-cover .inp-block {
+          width: 100%;
+          position: relative;
+          margin-bottom: 27px; }
+          .home-banner .banner-wrapper .form-block .form-card .form-inp-cover .inp-block ::-webkit-input-placeholder {
+            color: #000; }
+          .home-banner .banner-wrapper .form-block .form-card .form-inp-cover .inp-block :-moz-placeholder {
+            color: #000; }
+          .home-banner .banner-wrapper .form-block .form-card .form-inp-cover .inp-block ::-moz-placeholder {
+            color: #000; }
+          .home-banner .banner-wrapper .form-block .form-card .form-inp-cover .inp-block :-ms-input-placeholder {
+            color: #000; }
+          .home-banner .banner-wrapper .form-block .form-card .form-inp-cover .inp-block .form-control {
+            color: #000;
+            border: 1px solid #D6E0E7;
+            padding: 15px 30px;
+            height: 66px;
+            border-radius: 185px;
+            font-size: 18px;
+            box-shadow: none; }
+          .home-banner .banner-wrapper .form-block .form-card .form-inp-cover .inp-block .req {
+            position: relative;
+            display: block;
+            top: calc(100% + 2px);
+            font-size: 12px;
+            color: red;
+            left: 0; }
+        .home-banner .banner-wrapper .form-block .form-card .form-inp-cover .form-select {
+          background-position: right 22px center;
+          background-image: url("../img/downarrow.svg"); }
+        .home-banner .banner-wrapper .form-block .form-card .btn-block .submit-btn {
+          width: 100%;
+          background-color: #0099FF;
+          color: #fff;
+          padding: 15px 30px;
+          height: 66px;
+          border-radius: 185px;
+          font-size: 24px;
+          box-shadow: none; }
+
+/*# sourceMappingURL=banner.css.map */

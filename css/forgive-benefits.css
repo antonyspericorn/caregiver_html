@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;700;800;900&family=Rubik:wght@300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+/*** all Mobile Screen (iphone 6,7,8) ***/
+/*** mobile Landscape Size ***/
+/*** medium devices (tablets, less than 992px) ***/
+/*** iPad in landscape ***/
+/**** smaller than desktop 1200 (devices and browsers) ***/
+/*** laptop with MDPI (medium density per inch) resolution ***/
+/*** laptop with HiDPI (High Dots Per Inch) resolution ***/
+/*** WSXGA (Wide Super Extended Graphics Array) resolution ***/
+/*** all Mobile Screen (iphone 6,7,8) ***/
+/*** mobile Landscape Size ***/
+/*** medium devices (tablets, less than 992px) ***/
+/*** iPad in landscape ***/
+/**** smaller than desktop 1200 (devices and browsers) ***/
+/*** laptop with MDPI (medium density per inch) resolution ***/
+/*** laptop with HiDPI (High Dots Per Inch) resolution ***/
+/*** WSXGA (Wide Super Extended Graphics Array) resolution ***/
+.forgive-benefits-sec {
+  padding: 160px 0 10px;
+  background-image: url("../img/benefits-bg.png");
+  background-size: cover;
+  background-position: left bottom;
+  background-color: #F5FBFF; }
+  .forgive-benefits-sec .benefits-img-col {
+    min-width: 55%;
+    flex: 0 0 auto; }
+  .forgive-benefits-sec .benefits-text-col {
+    flex: 1 1 auto;
+    padding-left: 40px; }
+  .forgive-benefits-sec .benefits-text-col h2 {
+    color: #002944;
+    font-size: 42px;
+    font-weight: 600;
+    margin-bottom: 40px; }
+  .forgive-benefits-sec .benefits-text-col .lst-main {
+    list-style: none;
+    padding: 0; }
+    .forgive-benefits-sec .benefits-text-col .lst-main li {
+      position: relative;
+      padding-left: 40px;
+      font-size: 28px;
+      font-weight: 500;
+      color: #002944;
+      margin-bottom: 28px; }
+      .forgive-benefits-sec .benefits-text-col .lst-main li::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 12px;
+        width: 13px;
+        height: 18px;
+        border-left: solid 13px #0099FF;
+        border-top: solid 9px transparent;
+        border-bottom: solid 9px transparent;
+        display: inline-block; }
+  .forgive-benefits-sec .benefits-text-col .sub-ul-block {
+    display: flex;
+    padding-top: 15px;
+    padding-left: 30px; }
+    .forgive-benefits-sec .benefits-text-col .sub-ul-block .sub-ul-crd {
+      width: 50%; }
+      .forgive-benefits-sec .benefits-text-col .sub-ul-block .sub-ul-crd ul li {
+        color: #002944;
+        font-size: 21px;
+        font-weight: 300;
+        margin-bottom: 20px; }
+        .forgive-benefits-sec .benefits-text-col .sub-ul-block .sub-ul-crd ul li::marker {
+          color: #002944; }
+    .forgive-benefits-sec .benefits-text-col .sub-ul-block .sub-ul-block-2 {
+      padding-left: 40px; }
+
+/*# sourceMappingURL=forgive-benefits.css.map */

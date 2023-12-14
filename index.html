@@ -21,11 +21,180 @@
         <link rel="stylesheet" href="css/caregiver.css">
         <link rel="stylesheet" href="css/testimonials.css">
         <link rel="stylesheet" href="css/faq.css">
+
+        <link rel="stylesheet" href="css/navbar.css">
+        <link rel="stylesheet" href="css/banner.css">
+        <link rel="stylesheet" href="css/forgive-benefits.css">
+        <link rel="stylesheet" href="css/eligible.css">
+        <link rel="stylesheet" href="css/footer.css">
     
     </head>
 <body>
+    <header class="navbar-cover">
+		<div class="nav-top">
+			<div class="info-txt">
+				A home care agency serving all <span>62 counties in NYS</span>
+			</div>
+		</div>
+		<nav class="navbar navbar-expand-lg">
+			<div class="container container-custom">
+				<a class="navbar-brand" href="#">
+					<img src="img/logo.svg" alt="era">
+				</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+					aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNavDropdown">
+					<ul class="navbar-nav mx-auto">
+						<li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="#">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Services</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">FAQ</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Testimonials</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Contact Us</a>
+						</li>
+					</ul>
+
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							<a class="nav-link nav-link-btn" aria-current="page" href="#">
+								<span class="icon">
+									<img src="img/phone.svg" alt="">
+								</span> (929) 560-0070</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
     <main>
         <div class="pg-wrp">
+            <!-- Banner -->
+            <section class="home-banner">
+                <div class="container container-custom">
+                    <div class="banner-wrapper">
+                        <div class="text-block">
+                            <h2>Choose a caregiver who cares about you</h2>
+                            <p>Our CDPAP agency offers high pay rates and superb benefits for caregivers</p>
+                            <div class="btn-block">
+                                <a href="#" class="start-btn">Let’s Get Started
+                                    <img src="img/b-arw-rgt.svg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="form-block">
+                            <div class="form-card">
+                                <h2>Hire a family member or friend to care for you — and they'll <span>Get Paid</span></h2>
+                                <form action="#">
+                                    <div class="form-inp-cover">
+                                        <div class="inp-block">
+                                            <input type="text" class="form-control" placeholder="Name">
+                                            <!-- <span class="req">Required</span> -->
+                                        </div>
+                                        <div class="inp-block">
+                                            <input type="email" class="form-control" placeholder="Email">
+                                        </div>
+                                        <div class="inp-block">
+                                            <input type="text" class="form-control" placeholder="Phone">
+                                        </div>
+                                        <div class="inp-block">										
+                                            <select class="form-select form-control">
+                                                <option selected>I am a caregiver</option>
+                                                <option value="1">One</option>
+                                                <option value="2">Two</option>
+                                                <option value="3">Three</option>
+                                            </select>
+                                        </div>
+                                        <div class="btn-block">
+                                            <button type="submit" class="submit-btn btn">Submit</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Forgive -->
+            <section class="forgive-benefits-sec">
+                <div class="container container-custom">
+                    <div class="forgive-row d-flex">
+                        <div class="benefits-img-col">
+                            <div class="img-cover">
+                                <img src="img/benefits.png" alt="">
+                            </div>
+                        </div>
+                        <div class="benefits-text-col">
+                            <h2>Caregiver benefits</h2>
+                            <ul class="lst-main">
+                                <li>Highest rates</li>
+                                <li>Daily or weekly pay</li>
+                                <li>Create your own schedule</li>
+                                <li>Superior benefits package:</li>
+                            </ul>
+                            <div class="sub-ul-block">
+                                <div class="sub-ul-crd">
+                                    <ul>
+                                        <li>Health Insurance</li>
+                                        <li>Paid Sick/ Family Leave</li>
+                                        <li>Holiday Pay</li>
+                                    </ul>
+                                </div>
+                                <div class="sub-ul-crd sub-ul-block-2">
+                                    <ul>
+                                        <li>Overtime Pay</li>
+                                        <li>Paid Vacation</li>
+                                        <li>401K Retirement</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Congratulations -->
+            <section class="eligible-sec">
+                <div class="container container-custom">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="det-block">
+                                <h2>Congratulations ! <span>You’re Eligible!</span></h2>
+                                <div class="qst-cover d-flex">
+                                    <div class="qst-block qst-block-m">Have Medicaid?</div>
+                                    <div class="qst-block qst-block-m">Have Medicaid?</div>
+                                    <div class="qst-block">Have Medicaid?</div>
+                                </div>
+                                <div class="contact-block">
+                                    <span class="txt-label">Contact Our Team</span>
+                                    <a href="#" class="contact-link">
+                                        <span class="icon">
+                                            <img src="img/phone.svg" alt="">
+                                        </span>
+                                        (929) 560-0070
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="img-block">
+                                <img src="img/elgbl.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
             <section class="section section-service-incl">
                 <div class="container container-custom">
                     <div class="row">
@@ -365,7 +534,64 @@
                 </div>
             </section>
         </div>
+
+        <!-- Footer -->
+        <footer class="footer-sec">
+			<div class="f-top-block">
+				<div class="container container-custom">
+					<div class="f-top-wrapper">
+						<div class="f-logo">
+							<a href="#">
+								<img src="img/logo.svg" alt="">
+							</a>
+						</div>
+						<div class="f-nav-block">
+							<div class="f-nav-item">
+								<a href="#" class="f-nav-link">Home</a>
+							</div>
+							<div class="f-nav-item">
+								<a href="#" class="f-nav-link">Services</a>
+							</div>
+							<div class="f-nav-item">
+								<a href="#" class="f-nav-link">FAQ</a>
+							</div>
+							<div class="f-nav-item">
+								<a href="#" class="f-nav-link">Client Say's</a>
+							</div>
+							<div class="f-nav-item">
+								<a href="#" class="f-nav-link">Contact Us</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="f-btm-block">
+				<div class="container container-custom">
+					<div class="f-btm-wrapper">
+						<div class="rights">
+							Copyright 2023; All rights reserved.
+						</div>
+						<div class="f-soc-block">
+							<a href="#" class="soc-link">
+								<img src="img/fb.svg" alt="">
+							</a>
+							<a href="#" class="soc-link">
+								<img src="img/ytb.svg" alt="">
+							</a>
+							<a href="#" class="soc-link">
+								<img src="img/inst.svg" alt="">
+							</a>
+							<a href="#" class="soc-link">
+								<img src="img/lnkd.svg" alt="">
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+
     </main>
+
 </body>
 
 

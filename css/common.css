@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;700;800;900&family=Rubik:wght@300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+/*** all Mobile Screen (iphone 6,7,8) ***/
+/*** mobile Landscape Size ***/
+/*** medium devices (tablets, less than 992px) ***/
+/*** iPad in landscape ***/
+/**** smaller than desktop 1200 (devices and browsers) ***/
+/*** laptop with MDPI (medium density per inch) resolution ***/
+/*** laptop with HiDPI (High Dots Per Inch) resolution ***/
+/*** WSXGA (Wide Super Extended Graphics Array) resolution ***/
+/*** all Mobile Screen (iphone 6,7,8) ***/
+/*** mobile Landscape Size ***/
+/*** medium devices (tablets, less than 992px) ***/
+/*** iPad in landscape ***/
+/**** smaller than desktop 1200 (devices and browsers) ***/
+/*** laptop with MDPI (medium density per inch) resolution ***/
+/*** laptop with HiDPI (High Dots Per Inch) resolution ***/
+/*** WSXGA (Wide Super Extended Graphics Array) resolution ***/
+body, html {
+  font-family: 'Kanit', sans-serif; }
+
+p {
+  font-size: 1rem;
+  font-family: 'Gotham', sans-serif; }
+
+.heading {
+  font-family: 'ChampionGothic', sans-serif;
+  font-weight: 300; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  color: var(--primary); }
+  h1 span.sub,
+  h2 span.sub,
+  h3 span.sub,
+  h4 span.sub,
+  h5 span.sub,
+  h6 span.sub,
+  .h1 span.sub,
+  .h2 span.sub,
+  .h3 span.sub,
+  .h4 span.sub,
+  .h5 span.sub,
+  .h6 span.sub {
+    color: var(--secondary); }
+
+/**************************
+font sizes: 
+
+title large heading:74px = 4.625rem
+title heading:      60px = 3.75rem
+small heading:      24px = 1.5rem
+small subtitle :    20px = 1.25rem
+body text:          16px = 1rem
+body small text:    14px = 0.875rem
+
+*****************************/
+.container-padding {
+  padding-left: 70px;
+  padding-right: 70px; }
+  @media screen and (max-width: 1679px) {
+    .container-padding {
+      padding-left: 50px;
+      padding-right: 50px; } }
+  @media screen and (max-width: 1441px) {
+    .container-padding {
+      padding-left: 60px;
+      padding-right: 60px; } }
+  @media screen and (max-width: 991px) {
+    .container-padding {
+      padding-left: 30px;
+      padding-right: 30px; } }
+
+.container-custom {
+  max-width: 1440px; }
+  @media screen and (max-width: 1441px) {
+    .container-custom {
+      max-width: 1360px; } }
+
+.btn {
+  border-radius: 5px; }
+  .btn.btn-primary {
+    background-color: var(--primary);
+    border: 1px solid var(--primary);
+    color: var(--white); }
+  .btn.btn-secondary {
+    background-color: var(--secondary);
+    border: 1px solid var(--secondary);
+    color: var(--white); }
+
+img {
+  max-width: 100%; }
+
+/*# sourceMappingURL=common.css.map */
