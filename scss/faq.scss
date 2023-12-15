@@ -12,11 +12,12 @@
     padding-bottom: 70px;
   }
   @media ($sm-1281){
-
+    padding-top: 60px;
+    padding-bottom: 60px;
   }
   @media ($sm-1199){
-    padding-top: 90px;
-    padding-bottom: 90px;
+    padding-top: 40px;
+    padding-bottom: 40px;
   }
   .sec-title{
     font-size: 42px;
@@ -29,19 +30,48 @@
     @media ($sm-1281){
         font-size: 38px;
     }
+    @media ($sm-1199){
+        font-size: 24px;
+    }
+    @media ($sm-991){
+        font-size: 20px;
+    }
   }
   .sec-subtitle{
     color: #0099FF;
     font-weight: 600;
+    margin-bottom: 0.5em;
+        @media ($sm-1679){
+            font-size: 20px;
+        }
+        @media ($sm-1281){
+            font-size: 18px;
+        }
+        @media ($sm-1199){
+            font-size: 16px;
+        }
+        @media ($sm-991){
+            font-size: 14px;
+        }
+        
   }
    
   .accordion{
     padding-top: 40px;
+      @media ($sm-1679){
+        padding-top: 30px;
+      }
+      @media ($sm-1481){
+        padding-top: 20px;
+      }
+      @media ($sm-1199){
+        padding-top: 15px;
+      }
+      
     .accordion-item{
       border: none !important;
       margin-bottom: 19px;
       overflow: clip;
-       
       .accordion-button{
         box-shadow: none !important;
         background-color: transparent;
@@ -50,12 +80,23 @@
         color: #002944;
         font-weight: 500;
         border-radius: 12px;
+         
           @media ($sm-1679){
             font-size: 20px;
-          }
-          @media ($sm-1281){
-              font-size: 18px;
-          }
+            }
+            @media ($sm-1281){
+                font-size: 18px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+            }
+            @media ($sm-1199){
+                font-size: 16px;
+            }
+            @media ($sm-991){
+                font-size: 14px;
+                padding-top: 8px;
+                padding-bottom: 8px;
+            }
          
         &:after{
           background-image: none;
@@ -65,6 +106,7 @@
           justify-content: center;
           font-family: 'Rubik', sans-serif;
           color: #9CB3C3;
+          // align-self: flex-start;
         }
         &:not(.collapsed){
           background-color: #EAF6FF;
@@ -87,12 +129,20 @@
         color: #002944;
         font-size: 18px;
         line-height: 1.778;
+        
         @media ($sm-1679){
           font-size: 16px;
         }
         @media ($sm-1441){
             font-size: 14px;
+           
         }
+        @media ($sm-1281){
+            font-size: 12px;
+            margin-top: -0.33em;
+            line-height: 1.33;
+        }
+          
       }
     }
   }
