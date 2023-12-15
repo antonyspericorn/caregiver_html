@@ -27,8 +27,6 @@
   font: 500 28px/33px Kanit;
   list-style: none;
   position: relative;
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
   display: inline-flex;
   padding-left: 30px;
   margin-bottom: 25px;
@@ -62,8 +60,6 @@
 
 .mrgn-top {
   background-color: #F1F9FF;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 .mrgn-top .arrow-right {
@@ -94,3 +90,5 @@
 .fill-bg .feature-listing li {
   color: #002944;
 }
+
+/*# sourceMappingURL=section-01.css.map */

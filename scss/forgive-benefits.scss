@@ -7,10 +7,30 @@
         size: cover;
         position: left bottom;
         color: #F5FBFF;
-    };
+        
+    }
+    @media (max-width: 1679px)
+    {
+        padding: 130px 0 10px;
+    }
+    @media (max-width:1199px)
+    {
+        padding: 80px 50px 10px;
+    }
     .benefits-img-col{
         min-width: 55%;
         flex: 0 0 auto;
+        @media (max-width: 1679px)
+        {
+            min-width: 52%;
+        }
+        .img-cover
+        {
+            img
+            {
+                height: 700px;
+            }
+        }
     }
     .benefits-text-col{
         flex: 1 1 auto;
@@ -22,6 +42,11 @@
             font-size: 42px;
             font-weight: 600;
             margin-bottom: 40px;
+            @media (max-width: 1679px)
+            {
+                font-size: 37px;
+                margin-bottom: 30px;
+            }
         }
         .lst-main{
             list-style: none;
@@ -33,6 +58,11 @@
                 font-weight: 500;
                 color: #002944;
                 margin-bottom: 28px;
+                @media (max-width: 1679px)
+                {
+                    font-size: 23px;
+                    margin-bottom: 25px
+                }
                 &::before{
                     content: '';
                     position: absolute;
@@ -59,6 +89,11 @@
                         font-size: 21px;
                         font-weight: 300;
                         margin-bottom: 20px;
+                        @media (max-width: 1679px)
+                        {
+                            font-size: 18px;
+                            margin-bottom: 18px;
+                        }
                         &::marker{
                             color: #002944;
                         }

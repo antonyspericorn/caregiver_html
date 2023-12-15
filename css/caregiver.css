@@ -1,1 +1,82 @@
-.section-caregiver{padding-top:70px;background-color:rgba(241,249,255,.7019607843)}@media(max-width: 1679px){.section-caregiver{padding-top:60px}}@media(max-width: 1281px){.section-caregiver{padding-top:50px}}@media(max-width: 1199px){.section-caregiver{padding-top:40px}}.section-caregiver .txt-col-wrp{max-width:560px}.section-caregiver .txt-col-wrp .sec-title{font-size:42px;line-height:1.45;font-weight:600;color:#002944;margin-bottom:.5em}@media(max-width: 1679px){.section-caregiver .txt-col-wrp .sec-title{font-size:40px}}@media(max-width: 1281px){.section-caregiver .txt-col-wrp .sec-title{font-size:38px}}@media(max-width: 1199px){.section-caregiver .txt-col-wrp .sec-title{font-size:24px}}@media(max-width: 991px){.section-caregiver .txt-col-wrp .sec-title{font-size:20px}}.section-caregiver .txt-col-wrp .txtCont{color:#002944;font-size:18px;line-height:1.833}@media(max-width: 1679px){.section-caregiver .txt-col-wrp .txtCont{font-size:16px}}@media(max-width: 1481px){.section-caregiver .txt-col-wrp .txtCont{font-size:14px}}/*# sourceMappingURL=caregiver.css.map */
+/*** all Mobile Screen (iphone 6,7,8) ***/
+/*** mobile Landscape Size ***/
+/*** medium devices (tablets, less than 992px) ***/
+/*** iPad in landscape ***/
+/**** smaller than desktop 1200 (devices and browsers) ***/
+/*** laptop with MDPI (medium density per inch) resolution ***/
+/*** laptop with HiDPI (High Dots Per Inch) resolution ***/
+/*** WSXGA (Wide Super Extended Graphics Array) resolution ***/
+/*** all Mobile Screen (iphone 6,7,8) ***/
+/*** mobile Landscape Size ***/
+/*** medium devices (tablets, less than 992px) ***/
+/*** iPad in landscape ***/
+/**** smaller than desktop 1200 (devices and browsers) ***/
+/*** laptop with MDPI (medium density per inch) resolution ***/
+/*** laptop with HiDPI (High Dots Per Inch) resolution ***/
+/*** WSXGA (Wide Super Extended Graphics Array) resolution ***/
+.section-caregiver {
+  padding-top: 70px;
+  background-color: rgba(241, 249, 255, 0.7019607843);
+}
+@media (max-width: 1679px) {
+  .section-caregiver {
+    padding-top: 60px;
+  }
+}
+@media (max-width: 1281px) {
+  .section-caregiver {
+    padding-top: 50px;
+  }
+}
+@media (max-width: 1199px) {
+  .section-caregiver {
+    padding-top: 40px;
+  }
+}
+.section-caregiver .txt-col-wrp {
+  max-width: 560px;
+}
+.section-caregiver .txt-col-wrp .sec-title {
+  font-size: 42px;
+  line-height: 1.45;
+  font-weight: 600;
+  color: #002944;
+  margin-bottom: 0.5em;
+}
+@media (max-width: 1679px) {
+  .section-caregiver .txt-col-wrp .sec-title {
+    font-size: 40px;
+  }
+}
+@media (max-width: 1281px) {
+  .section-caregiver .txt-col-wrp .sec-title {
+    font-size: 38px;
+  }
+}
+@media (max-width: 1199px) {
+  .section-caregiver .txt-col-wrp .sec-title {
+    font-size: 24px;
+  }
+}
+@media (max-width: 991px) {
+  .section-caregiver .txt-col-wrp .sec-title {
+    font-size: 20px;
+  }
+}
+.section-caregiver .txt-col-wrp .txtCont {
+  color: #002944;
+  font-size: 18px;
+  line-height: 1.833;
+}
+@media (max-width: 1679px) {
+  .section-caregiver .txt-col-wrp .txtCont {
+    font-size: 16px;
+  }
+}
+@media (max-width: 1481px) {
+  .section-caregiver .txt-col-wrp .txtCont {
+    font-size: 14px;
+  }
+}
+
+/*# sourceMappingURL=caregiver.css.map */

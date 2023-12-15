@@ -1,1 +1,40 @@
-body{font-family:"Kanit",sans-serif;font-weight:300}.sec-subtitle{color:#09f}.container-custom{max-width:1300px}@media(max-width: 1281px){.container-custom{max-width:1200px}}@media(max-width: 991px){.container-custom{max-width:900px}}/*# sourceMappingURL=custom.css.map */
+/*** all Mobile Screen (iphone 6,7,8) ***/
+/*** mobile Landscape Size ***/
+/*** medium devices (tablets, less than 992px) ***/
+/*** iPad in landscape ***/
+/**** smaller than desktop 1200 (devices and browsers) ***/
+/*** laptop with MDPI (medium density per inch) resolution ***/
+/*** laptop with HiDPI (High Dots Per Inch) resolution ***/
+/*** WSXGA (Wide Super Extended Graphics Array) resolution ***/
+/*** all Mobile Screen (iphone 6,7,8) ***/
+/*** mobile Landscape Size ***/
+/*** medium devices (tablets, less than 992px) ***/
+/*** iPad in landscape ***/
+/**** smaller than desktop 1200 (devices and browsers) ***/
+/*** laptop with MDPI (medium density per inch) resolution ***/
+/*** laptop with HiDPI (High Dots Per Inch) resolution ***/
+/*** WSXGA (Wide Super Extended Graphics Array) resolution ***/
+body {
+  font-family: "Kanit", sans-serif;
+  font-weight: 300;
+}
+
+.sec-subtitle {
+  color: #0099FF;
+}
+
+.container-custom {
+  max-width: 1300px;
+}
+@media (max-width: 1281px) {
+  .container-custom {
+    max-width: 1200px;
+  }
+}
+@media (max-width: 991px) {
+  .container-custom {
+    max-width: 900px;
+  }
+}
+
+/*# sourceMappingURL=custom.css.map */

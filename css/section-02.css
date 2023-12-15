@@ -1,69 +1,86 @@
 .content-section {
-  padding: 50px 0; }
-  .content-section .contwnt-hd .title {
-    color: #002944;
-    font: normal normal 500 42px/47px Kanit; }
+  padding: 50px 0;
+}
+.content-section .contwnt-hd .title {
+  color: #002944;
+  font: normal normal 500 42px/47px Kanit;
+}
 
 .box-card {
   min-height: 430px;
   background: #FFFFFF;
-  box-shadow: 0px 3px 41px #0099FF0D;
+  box-shadow: 0px 3px 41px rgba(0, 153, 255, 0.0509803922);
   border: 1px solid #CBE1EF;
   border-radius: 37px;
-  padding: 70px; }
-  .box-card img {
-    max-width: 100%; }
+  padding: 70px;
+}
+.box-card img {
+  max-width: 100%;
+}
 
 .section-box-cover {
-  margin-top: 60px; }
-  .section-box-cover .card-box-lg {
-    background: #F7FCFF 0% 0% no-repeat padding-box;
-    border: 1px solid #92D3FF;
-    min-height: 500px;
-    border-radius: 32px;
-    text-align: left;
-    padding: 35px 32px; }
-    .section-box-cover .card-box-lg .icon {
-      background-color: #DAEFFD;
-      width: 100px;
-      height: 100px;
-      border-radius: 50%;
-      display: grid;
-      place-items: center;
-      margin-bottom: 25px; }
-    .section-box-cover .card-box-lg .content-main strong {
-      color: #0099FF; }
-    .section-box-cover .card-box-lg .content-main .title-lg {
-      color: #002944;
-      font: normal normal 500 24px/27px Kanit;
-      margin: 25px 0; }
-    .section-box-cover .card-box-lg .content-main p {
-      color: #002944;
-      font: normal normal 300 18px/32px Kanit; }
+  margin-top: 60px;
+}
+.section-box-cover .card-box-lg {
+  background: #F7FCFF 0% 0% no-repeat padding-box;
+  border: 1px solid #92D3FF;
+  min-height: 500px;
+  border-radius: 32px;
+  text-align: left;
+  padding: 35px 32px;
+}
+.section-box-cover .card-box-lg .icon {
+  background-color: #DAEFFD;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  margin-bottom: 25px;
+}
+.section-box-cover .card-box-lg .content-main strong {
+  color: #0099FF;
+}
+.section-box-cover .card-box-lg .content-main .title-lg {
+  color: #002944;
+  font: normal normal 500 24px/27px Kanit;
+  margin: 25px 0;
+}
+.section-box-cover .card-box-lg .content-main p {
+  color: #002944;
+  font: normal normal 300 18px/32px Kanit;
+}
 
 .light-bg {
-  background: #F1F9FF; }
+  background: #F1F9FF;
+}
 
 .text-center-content {
-  text-align: center; }
+  text-align: center;
+}
 
 .cstm-bg {
-  background-color: #fff !important; }
+  background-color: #fff !important;
+}
 
 .cdpa.mrgn-top.fill-bg {
   margin-top: 55px;
-  margin-bottom: 55px; }
+  margin-bottom: 55px;
+}
 
 .bg-fill-one {
   background: url(../img/bg-fill.png) no-repeat center center;
   background-size: cover;
-  padding: 85px 0; }
-  .bg-fill-one .h2 {
-    text-align: center;
-    font: 600 45px/47px Kanit;
-    color: #fff; }
-    .bg-fill-one .h2 span {
-      color: #0099FF; }
+  padding: 85px 0;
+}
+.bg-fill-one .h2 {
+  text-align: center;
+  font: 600 45px/47px Kanit;
+  color: #fff;
+}
+.bg-fill-one .h2 span {
+  color: #0099FF;
+}
 
 .info-bg {
   background: #F0F9FF 0% 0% no-repeat padding-box;
@@ -73,30 +90,36 @@
   margin-top: 35px;
   font: normal normal 500 24px/27px Kanit;
   display: flex;
-  align-items: center; }
-  .info-bg .lft {
-    color: #002944;
-    padding-left: 15px; }
-    .info-bg .lft span {
-      color: #0099FF; }
-  .info-bg .rgt-call {
-    display: inline-flex;
-    align-items: center;
-    background-color: #0099FF;
-    border-radius: 36px;
-    padding: 12px;
-    margin-left: auto;
-    font: normal normal 500 22px/27px Kanit; }
-    .info-bg .rgt-call .icon {
-      width: 50px;
-      height: 50px;
-      border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      background-color: #fff;
-      margin-right: 12px; }
-    .info-bg .rgt-call span {
-      color: #fff; }
+  align-items: center;
+}
+.info-bg .lft {
+  color: #002944;
+  padding-left: 15px;
+}
+.info-bg .lft span {
+  color: #0099FF;
+}
+.info-bg .rgt-call {
+  display: inline-flex;
+  align-items: center;
+  background-color: #0099FF;
+  border-radius: 36px;
+  padding: 12px;
+  margin-left: auto;
+  font: normal normal 500 22px/27px Kanit;
+}
+.info-bg .rgt-call .icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  margin-right: 12px;
+}
+.info-bg .rgt-call span {
+  color: #fff;
+}
 
 /*# sourceMappingURL=section-02.css.map */

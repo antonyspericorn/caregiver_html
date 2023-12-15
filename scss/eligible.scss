@@ -16,6 +16,10 @@
             span{
                 color: #0099FF;
             }
+            @media (max-width: 1679px)
+            {
+                font-size: 37px;
+            }
         }
         .qst-cover{
             display: flex;
@@ -32,6 +36,11 @@
                 font-weight: 300;
                 color: #fff;
                 margin-bottom: 25px;
+                @media (max-width: 1679px)
+                {
+                    padding: 12px 32px;
+                    
+                }
                 &.qst-block-m{
                     width: calc(50% - 8px);
                 }
@@ -47,6 +56,10 @@
                 color: #fff;
                 padding: 10px 0;
                 padding-right: 50px;
+                @media (max-width: 1679px)
+                {
+                    padding-right: 30px;
+                }
             }
             .contact-link{
                 text-decoration: none;
@@ -75,17 +88,28 @@
     .img-block{
         padding-left: 30px;
         text-align: right;
+        @media (max-width: 1679px)
+        {
+            text-align: center;
+        }
+        img
+        {
+            @media (max-width: 1679px)
+            {
+                height: 360px;
+            }
+        }
     }
 }
 @media (max-width: 1679px) {
     .eligible-sec .det-block .qst-cover .qst-block, .eligible-sec .det-block .contact-block .txt-label{
-        font-size: 25px;
+        font-size: 21px;
     }
     .eligible-sec .det-block .contact-block .contact-link{
-        font-size: 20px;
+        font-size: 18px;
     }
     .eligible-sec .det-block .contact-block .contact-link .icon{
-        width: 44px;
-        height: 44px;
+        width: 30px;
+        height: 30px;
     }
 }

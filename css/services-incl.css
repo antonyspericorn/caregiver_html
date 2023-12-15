@@ -1,1 +1,182 @@
-.section-service-incl{padding-top:110px;padding-bottom:110px}@media(max-width: 1679px){.section-service-incl{padding-top:80px;padding-bottom:80px}}@media(max-width: 1481px){.section-service-incl{padding-top:70px;padding-bottom:70px}}@media(max-width: 1281px){.section-service-incl{padding-top:50px;padding-bottom:50px}}@media(max-width: 1199px){.section-service-incl{padding-top:40px;padding-bottom:40px}}.section-service-incl .sec-title{font-size:42px;color:#002944;margin-bottom:1.29em}@media(max-width: 1679px){.section-service-incl .sec-title{font-size:40px}}@media(max-width: 1281px){.section-service-incl .sec-title{font-size:38px}}@media(max-width: 1199px){.section-service-incl .sec-title{font-size:24px}}@media(max-width: 991px){.section-service-incl .sec-title{font-size:20px}}.serv-item{padding-left:25px;padding-right:25px;max-width:320px;margin-left:auto;margin-right:auto;margin-bottom:40px}@media(max-width: 1679px){.serv-item{padding-left:20px;padding-right:20px;margin-bottom:30px}}@media(max-width: 1481px){.serv-item{padding-left:16px;padding-right:16px}}@media(max-width: 1281px){.serv-item{padding-left:12px;padding-right:12px}}@media(max-width: 1199px){.serv-item{padding-left:10px;padding-right:10px}}@media(max-width: 767px){.serv-item{padding-left:0px;padding-right:0px}}.serv-item .serv-img{aspect-ratio:1;border-radius:100%;overflow:clip;margin-bottom:30px;border:18px solid;max-width:268px;border-color:#dfedf6 !important}@media(max-width: 1679px){.serv-item .serv-img{border:16px solid;margin-bottom:20px}}@media(max-width: 1481px){.serv-item .serv-img{border:14px solid;margin-bottom:15px}}@media(max-width: 1281px){.serv-item .serv-img{border:12px solid;margin-bottom:12px}}@media(max-width: 1199px){.serv-item .serv-img{border:10px solid}}@media(max-width: 767px){.serv-item .serv-img{border:8px solid}}.serv-item .serv-img img{width:100%;height:100%}.serv-item .serv-txt{text-align:center;font-size:24px;color:#002944}@media(max-width: 1679px){.serv-item .serv-txt{font-size:20px}}@media(max-width: 1281px){.serv-item .serv-txt{font-size:18px}}@media(max-width: 1199px){.serv-item .serv-txt{font-size:16px}}@media(max-width: 991px){.serv-item .serv-txt{font-size:14px}}@media(max-width: 579px){.serv-item .serv-txt{font-size:12px}}/*# sourceMappingURL=services-incl.css.map */
+/*** all Mobile Screen (iphone 6,7,8) ***/
+/*** mobile Landscape Size ***/
+/*** medium devices (tablets, less than 992px) ***/
+/*** iPad in landscape ***/
+/**** smaller than desktop 1200 (devices and browsers) ***/
+/*** laptop with MDPI (medium density per inch) resolution ***/
+/*** laptop with HiDPI (High Dots Per Inch) resolution ***/
+/*** WSXGA (Wide Super Extended Graphics Array) resolution ***/
+/*** all Mobile Screen (iphone 6,7,8) ***/
+/*** mobile Landscape Size ***/
+/*** medium devices (tablets, less than 992px) ***/
+/*** iPad in landscape ***/
+/**** smaller than desktop 1200 (devices and browsers) ***/
+/*** laptop with MDPI (medium density per inch) resolution ***/
+/*** laptop with HiDPI (High Dots Per Inch) resolution ***/
+/*** WSXGA (Wide Super Extended Graphics Array) resolution ***/
+.section-service-incl {
+  padding-top: 110px;
+  padding-bottom: 110px;
+}
+@media (max-width: 1679px) {
+  .section-service-incl {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+}
+@media (max-width: 1481px) {
+  .section-service-incl {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+}
+@media (max-width: 1281px) {
+  .section-service-incl {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+@media (max-width: 1199px) {
+  .section-service-incl {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}
+.section-service-incl .sec-title {
+  font-size: 42px;
+  color: #002944;
+  margin-bottom: 1.29em;
+}
+@media (max-width: 1679px) {
+  .section-service-incl .sec-title {
+    font-size: 40px;
+  }
+}
+@media (max-width: 1281px) {
+  .section-service-incl .sec-title {
+    font-size: 38px;
+  }
+}
+@media (max-width: 1199px) {
+  .section-service-incl .sec-title {
+    font-size: 24px;
+  }
+}
+@media (max-width: 991px) {
+  .section-service-incl .sec-title {
+    font-size: 20px;
+  }
+}
+
+.serv-item {
+  padding-left: 25px;
+  padding-right: 25px;
+  max-width: 320px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+}
+@media (max-width: 1679px) {
+  .serv-item {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 1481px) {
+  .serv-item {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+@media (max-width: 1281px) {
+  .serv-item {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}
+@media (max-width: 1199px) {
+  .serv-item {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+@media (max-width: 767px) {
+  .serv-item {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+.serv-item .serv-img {
+  aspect-ratio: 1;
+  border-radius: 100%;
+  overflow: clip;
+  margin-bottom: 30px;
+  border: 18px solid;
+  max-width: 268px;
+  border-color: #dfedf6 !important;
+}
+@media (max-width: 1679px) {
+  .serv-item .serv-img {
+    border: 16px solid;
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 1481px) {
+  .serv-item .serv-img {
+    border: 14px solid;
+    margin-bottom: 15px;
+  }
+}
+@media (max-width: 1281px) {
+  .serv-item .serv-img {
+    border: 12px solid;
+    margin-bottom: 12px;
+  }
+}
+@media (max-width: 1199px) {
+  .serv-item .serv-img {
+    border: 10px solid;
+  }
+}
+@media (max-width: 767px) {
+  .serv-item .serv-img {
+    border: 8px solid;
+  }
+}
+.serv-item .serv-img img {
+  width: 100%;
+  height: 100%;
+}
+.serv-item .serv-txt {
+  text-align: center;
+  font-size: 24px;
+  color: #002944;
+}
+@media (max-width: 1679px) {
+  .serv-item .serv-txt {
+    font-size: 20px;
+  }
+}
+@media (max-width: 1281px) {
+  .serv-item .serv-txt {
+    font-size: 18px;
+  }
+}
+@media (max-width: 1199px) {
+  .serv-item .serv-txt {
+    font-size: 16px;
+  }
+}
+@media (max-width: 991px) {
+  .serv-item .serv-txt {
+    font-size: 14px;
+  }
+}
+@media (max-width: 579px) {
+  .serv-item .serv-txt {
+    font-size: 12px;
+  }
+}
+
+/*# sourceMappingURL=services-incl.css.map */

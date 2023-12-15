@@ -12,10 +12,7 @@ header{
     top: 0;
     left: 0;
     width: 100%;
-    background: transparent;
-    @media ($sm-1679){
-        zoom: 85%;   
-    }
+    background: transparent; 
     &.nav-sticky{
         background: #002944;
         .navbar{
@@ -257,11 +254,11 @@ header{
 
 @media (max-width: 1679px) {
     .navbar .navbar-nav .nav-link-btn{
-        font-size: 20px;
+        font-size:18px;
     }
     .navbar .navbar-nav .nav-link-btn .icon{
-        width: 44px;
-        height: 44px;
+        width: 30px;
+        height: 30px;
     }
     header .nav-top .info-txt{
         font-size: 18px;
