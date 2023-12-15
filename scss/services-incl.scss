@@ -31,6 +31,12 @@
         @media ($sm-1281){
             font-size: 38px;
         }
+        @media ($sm-1199){
+            font-size: 24px;
+        }
+        @media ($sm-991){
+            font-size: 20px;
+        }
     }
 }
 .serv-item{
@@ -58,6 +64,10 @@
         padding-left: 10px;
         padding-right: 10px; 
     }
+    @media ($sm-767){
+        padding-left: 0px;
+        padding-right: 0px; 
+    }
     .serv-img{
         aspect-ratio: 1;
         border-radius: 100%;
@@ -81,10 +91,12 @@
         @media ($sm-1199){
             border: 10px solid;
         }
+        @media ($sm-767){
+            border: 8px solid;
+        }
         img{
             width: 100%;
-            height: 100%;
-            
+            height: 100%; 
         }
     }
     .serv-txt{
@@ -96,6 +108,15 @@
         }
         @media ($sm-1281){
             font-size: 18px;
+        }
+        @media ($sm-1199){
+            font-size: 16px;
+        }
+        @media ($sm-991){
+            font-size: 14px;
+        }
+        @media ($sm-579 ){
+            font-size: 12px;
         }
     }
 }

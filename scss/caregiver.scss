@@ -3,7 +3,16 @@
 .section-caregiver{
     padding-top: 70px;
     background-color: #f1f9ffb3;
-
+    @media ($sm-1679){
+        padding-top: 60px;
+    }
+    @media ($sm-1281){
+        padding-top: 50px;    
+    }
+    @media ($sm-1199){
+        padding-top: 40px;  
+    }
+     
     .txt-col-wrp{
         max-width: 560px;
 
@@ -19,6 +28,12 @@
             @media ($sm-1281){
                 font-size: 38px;
             }
+            @media ($sm-1199){
+                font-size: 24px;
+            }
+            @media ($sm-991){
+                font-size: 20px;
+            }
              
         }
 
@@ -26,7 +41,12 @@
             color: #002944;
             font-size: 18px;
             line-height: 1.833;
-            
+            @media ($sm-1679){
+                font-size: 16px;
+            }
+            @media ($sm-1481){
+                font-size: 14px;
+            }
         }
     }
 }
